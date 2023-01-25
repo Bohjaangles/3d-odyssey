@@ -3,10 +3,22 @@ height: 75px;
 width: "100vw";
 background-color: #9cfffa;
 z-index: 5;
+box-shadow: 0 0 5px gray;
+
   .header-center-text {
     display: flex;
     align-items: center;
     justify-content: center;
 
+  }
+  .hamburger {
+    display: flex;
+    border-radius: 50%;
+    justify-content: flex-end;
+    padding-right: 2rem;
+    transform: translateY(-2.3rem);
+    &:hover {
+      color: rgba(45, 48, 215, 0.563);
+    } 
   }
 }
