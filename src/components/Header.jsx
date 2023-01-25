@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <div className='header-wrapper'>
       <div className="header-center-text">
-        <h3>Hello from Header!</h3>
+        <h3>3D-ODYSSEY</h3>
       </div>
       <div className="hamburger"
         onClick={hamburgler}
