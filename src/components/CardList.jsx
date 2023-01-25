@@ -5,7 +5,9 @@ import CardItem from './CardItem'
 export default function CardList() {
   
   return (
-    <div className="cardListWrapper">
+    <div className="cardListWrapper" >
+      <CardItem />
+      <CardItem />
       <CardItem />
     </div>
   )
