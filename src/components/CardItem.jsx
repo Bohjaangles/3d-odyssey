@@ -11,9 +11,9 @@ export default function CardItem() {
   return (
     <div className="cardWrapper">
       <Card>
-        <CardHeader>
-          <Typography>Hello from the card header</Typography>
-        </CardHeader>
+        <CardHeader 
+          title='Hello from card header'
+        />
         <CardContent>
           <Typography>Hello from card content</Typography>
         </CardContent>
