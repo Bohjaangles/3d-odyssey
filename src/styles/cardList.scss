@@ -2,4 +2,18 @@
   display: flex;
   align-items: center;
   flex-direction: row;
+
+
+  .first-row {
+    display: flex;
+    flex-direction: row;
+    height: 40vh;
+    width: 90vw;
+    justify-content: space-between;
+  }
+  
+  .second-row {
+    display: flex;
+    flex-direction: row;
+  }
 }

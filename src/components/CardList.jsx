@@ -6,9 +6,14 @@ export default function CardList() {
   
   return (
     <div className="cardListWrapper" >
-      <CardItem />
-      <CardItem />
-      <CardItem />
+      <div className="first-row">
+        <CardItem />
+        <CardItem />
+      </div>
+      <div className="second-row">
+        <CardItem />
+        <CardItem />
+      </div>
     </div>
   )
 }
