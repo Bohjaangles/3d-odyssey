@@ -1,3 +1,7 @@
+# 3D-Oddysey
+app to display 3d animations in cards, that are interactable and display source code when a button is clicked
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

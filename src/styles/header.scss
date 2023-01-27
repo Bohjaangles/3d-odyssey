@@ -1,7 +1,7 @@
 .header-wrapper {
 height: 75px;
 width: "100vw";
-// background-color: #9cfffa;
+background-color: #9cfffa;
 z-index: 5;
 box-shadow: 0 0 5px gray;
 
@@ -15,7 +15,10 @@ box-shadow: 0 0 5px gray;
     display: flex;
     border-radius: 50%;
     justify-content: flex-end;
+    align-items: center;
+    width: 2rem;
     padding-right: 2rem;
+    margin-left: 2rem;
     transform: translateY(-2.5rem);
     &:hover {
       color: rgba(45, 48, 215, 0.563);

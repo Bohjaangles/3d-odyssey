@@ -29,6 +29,17 @@ export default function CardList() {
           <CardItem />
         </Grid>
       </div>
+      <div className="third-row">
+        <Grid
+          container
+          direction="row"
+          align-items="center"
+          justifyContent="space-evenly"
+        >
+          <CardItem />
+          <CardItem />
+        </Grid>
+      </div>
     </div>
   )
 }

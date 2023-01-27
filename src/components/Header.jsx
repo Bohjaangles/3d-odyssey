@@ -1,7 +1,6 @@
 import React from 'react'
 import MenuIcon from '@mui/icons-material/Menu';
 import '../styles/header.scss'
-import image from "../assets/header.png"
 
 export default function Header() {
   function hamburgler() {
@@ -9,7 +8,7 @@ export default function Header() {
   }
 
   return (
-    <div className='header-wrapper' style={{ backgroundImage: `url(${image})` }}>
+    <div className='header-wrapper' >
       <div className="header-center-text">
         <h3>3D-ODYSSEY</h3>
       </div>
