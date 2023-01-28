@@ -1,12 +1,13 @@
 import React from 'react'
 import CardItem from './CardItem'
 import { Grid } from '@mui/material';
+import image from '../assets/background.jpg'
 
 
 export default function CardList() {
   
   return (
-    <div className="cardListWrapper" >
+    <div className="cardListWrapper" style={{ backgroundImage: `url(${image})`}} >
       <div className="first-row">
         <Grid
           container
