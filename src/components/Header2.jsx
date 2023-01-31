@@ -5,6 +5,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
+import '../styles.header2.scss'
 
 export default function Header2() {
   function hamburgler() {
@@ -12,7 +13,7 @@ export default function Header2() {
   }
 
   return (
-    <Box sx={{ flexGrow: 1, boxShadow: 1 }}>
+    <Box sx={{ flexGrow: 1, boxShadow: 1 }} className="header-wrapper">
       <AppBar position="static">
         <Toolbar variant="dense">
           <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }}>
